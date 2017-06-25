@@ -16,7 +16,7 @@ import views.LocationInputPage;
 * 
 * IP is determine via http://ipinfo.io
 * MapQuest API is used to get coordinates from the post code
-* Weather API is used to get a forecast from the coordinates 
+* OpenWeatherMap API is used to get a forecast from the coordinates 
 *
 * @author  Ricardo Matos
 * @version 1.0
