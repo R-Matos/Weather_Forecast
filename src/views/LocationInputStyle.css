@@ -1,0 +1,9 @@
+
+#instructionLabel {
+	-fx-text-fill: "Black";
+	-fx-alignment: "CENTER";
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+	-fx-padding: 10 0 10 0;
+}
+

@@ -1,0 +1,55 @@
+#mainPane {
+	 -fx-background-color: linear-gradient(from 25px 25px to 100px 100px, #1458AD, #4DABD1);
+}
+
+#iconBox, #tempBox, #windBox {
+	-fx-background-color: rgba(255, 255, 255, 0.25);
+	-fx-background-insets: 0,1,4,5;
+    -fx-background-radius: 9,8,5,4;
+    
+}
+
+#location {
+	-fx-font-size: 20px;
+	-fx-padding: 10 10 10 10;
+}
+
+#summary {
+	-fx-font-size: 13px;
+	-fx-wrap-text: true;
+	-fx-text-alignment: center;
+}
+
+#cloudDescription {
+	-fx-font-size: 11px;
+	-fx-wrap-text: true;
+	-fx-text-alignment: center;
+}
+
+#tempFlow {
+	-fx-text-alignment: center;
+}
+
+#rangeFlow {
+	-fx-font-size: 11px;
+	-fx-text-alignment: left;
+}
+
+#windDescription, #windValue {
+	-fx-font-size: 11px;
+	-fx-text-alignment: center;
+	-fx-wrap-text: true;
+}
+
+#circle {
+	-fx-fill: transparent;    
+	-fx-stroke: BLACK;
+	-fx-stroke-width: 2;
+}
+
+		
+#humidity, #rainfall, #visibility, #pressure {
+	-fx-font-size: 11px;
+	-fx-text-alignment: left;
+}
+
